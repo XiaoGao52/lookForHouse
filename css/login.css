@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    min-width: 375px;
+}
+
+iframe:nth-of-type(1) {
+    width: 100%;
+    height: 4.9rem;
+}
+
+.box1 {
+    min-width: 375px;
+
+    width: 100%;
+    height: 4.219rem;
+    background-color: white;
+    padding-left: 2rem;
+    box-sizing: border-box;
+    line-height: 4.219rem;
+    border-bottom: .1rem solid #c5c5c5;
+}
+
+.box1>p {
+    font-size: 1.4063rem;
+    font-weight: 600;
+}
+
+.box1>p>span {
+    font-size: 1.4063rem;
+    color: #000000;
+    font-weight: normal;
+}
+
+.box2 {
+    width: 100%;
+    height: 5.4rem;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box2>a {
+    text-decoration: none;
+    flex: 1;
+    height: 90%;
+    text-align: center;
+    line-height: 5.4rem;
+    font-size: 1.4063rem;
+    color: #000000;
+    /* box-sizing: border-box; */
+    background-color: white;
+}
+
+.active {
+    border-bottom: .5rem solid #FF8A00;
+}
+
+.box3 {
+    width: 100%;
+    height: 16.4rem;
+    text-align: center;
+}
+
+.box3>input {
+    width: 100%;
+    height: 4.9rem;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    text-indent: 2rem;
+}
+
+.box3>.btn {
+    width: 90%;
+    background-color: #ff8a00;
+    height: 5.6rem;
+    color: white;
+    font-size: 1.8rem;
+    border: none;
+    margin-top: 1rem;
+    letter-spacing: .2rem;
+
+}
+
+.box4 {
+    position: relative;
+}
+
+.box4>button:nth-of-type(1) {
+    position: absolute;
+    top: .3rem;
+    right: 2rem;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    border: .1rem solid #9999995e;
+    color: #555;
+
+}
+
+.box5 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.box5>a:nth-of-type(1) {
+    text-decoration: none;
+    color: #ff8a00;
+    font-size: 1.4063rem;
+}
+
+.box5>a:nth-of-type(2) {
+    text-decoration: none;
+    color: #999;
+    font-size: 1.4063rem;
+}
