@@ -46,7 +46,18 @@ btn1.onclick = function () {
     } else if (inp[0].value == '' || inp[1].value == '' || inp[2].value == '' || inp[3].value == '') {
         alert('不能为空')
     } else if (inp[1].value == arry[0] && psd.test(inp[2].value) && inp[2].value == inp[3].value) {
-        alert('成功')
+        if (localStorage.getItem(inp[0].value)) {
+
+            if (inp[2].value == localStorage.getItem(`${inp[0].value}psd`)) {
+                alert('此次修改密码与之前相同，请更换密码')
+            } else {
+                localStorage.setItem(`${inp[0].value}psd`, inp[2].value)
+                alert('密码已重置，请牢记！')
+            }
+        } else {
+            alert('账号不存在')
+        }
+
     } else {
         alert('输入错误')
     }

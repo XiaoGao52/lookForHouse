@@ -39,6 +39,9 @@ var btn1_ = document.querySelector('.box3').children[0]
 btn1_.onclick = function () {
     if (arry[0] == inp[1].value && psd.test(inp[2].value)) {
         alert('注册成功，请牢记密码');
+        console.log(inp[0]);
+        localStorage.setItem(inp[0].value, inp[0].value)
+        localStorage.setItem(`${inp[0].value}psd`, inp[2].value)
     } else if (arry[0] != inp[1].value) {
         alert('验证码输入错误')
     } else {
