@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #F5F5F5;
+}
+iframe {
+  width: 100%;
+  height: 4.9rem;
+  float: left;
+}
+.box {
+  clear: both;
+}
+.box header {
+  width: 100%;
+  height: 20rem;
+  background: url(../img/SecondHandList/img.png) no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.box header span {
+  display: inline-block;
+  width: 3rem;
+  height: 1.5rem;
+  text-align: center;
+  line-height: 1.5rem;
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  color: white;
+  border-radius: 2rem;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.box .top {
+  width: 100%;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  background-color: white;
+}
+.box .top h3 {
+  font-size: 0.18rem;
+}
+.box .top p:nth-of-type(1) {
+  width: 100%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  line-height: 2rem;
+  background: url(../img/SecondHandList/phone.png) no-repeat 34rem;
+  background-size: 1rem;
+}
+.box .top p:nth-of-type(2) {
+  margin-top: 0.5rem;
+  color: grey;
+}
+.box .top span:nth-of-type(1) {
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 1rem;
+  color: gray;
+  background-color: #DEE9F0;
+}
+.box .top span:nth-of-type(2) {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  color: gray;
+  background-color: #DEE9F0;
+}
+.box .top span:nth-of-type(3) {
+  display: inline-block;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  color: gray;
+  margin-bottom: 1rem;
+  background-color: #DEE9F0;
+}
+.box .uls {
+  width: 100%;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  background-color: white;
+  float: left;
+  list-style: none;
+  box-sizing: border-box;
+}
+.box .uls li {
+  width: 100%;
+  float: left;
+  line-height: 3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .uls li .left {
+  float: left;
+}
+.box .uls li .right {
+  float: right;
+  margin-right: 2rem;
+}
+.box .uls li .right span {
+  margin-right: 3rem;
+  float: left;
+}
+.box .uls li:nth-of-type(1) {
+  width: 100%;
+  float: left;
+  line-height: 3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .uls li:nth-of-type(1) .left {
+  float: left;
+}
+.box .uls li:nth-of-type(1) .right {
+  float: right;
+  margin-right: 2rem;
+}
+.box .uls li:nth-of-type(1) .right span {
+  margin-right: 4.5rem;
+  float: left;
+}
+.box .uls li:nth-of-type(3) {
+  width: 100%;
+  float: left;
+  line-height: 3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .uls li:nth-of-type(3) .left {
+  float: left;
+}
+.box .uls li:nth-of-type(3) .right {
+  float: right;
+  margin-right: 2rem;
+}
+.box .uls li:nth-of-type(3) .right span {
+  margin-right: 5.3rem;
+  float: left;
+}
+.box .uls li:nth-of-type(5) {
+  width: 100%;
+  float: left;
+  line-height: 3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .uls li:nth-of-type(5) .left {
+  float: left;
+}
+.box .uls li:nth-of-type(5) .right {
+  float: right;
+  margin-right: 2rem;
+}
+.box .uls li:nth-of-type(5) .right span {
+  margin-right: 5.3rem;
+  float: left;
+}
+.box .uls li:nth-of-type(7) {
+  width: 100%;
+  float: left;
+  line-height: 3rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .uls li:nth-of-type(7) .left {
+  float: left;
+}
+.box .uls li:nth-of-type(7) .right {
+  float: right;
+  margin-right: 2rem;
+}
+.box .uls li:nth-of-type(7) .right span {
+  margin-right: 4rem;
+  float: left;
+}
+.box .uls li:nth-of-type(17) {
+  padding-left: 14rem;
+  border-bottom: none;
+  box-sizing: border-box;
+}
+.box .uls .li {
+  width: 82%;
+  margin-left: 2rem;
+  border-bottom: 0.1rem solid gray;
+}
+.box .feature {
+  width: 100%;
+  float: left;
+  margin-top: 2rem;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  background-color: white;
+}
+.box .feature h2 {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid #c6c4c4;
+}
+.box .feature p:nth-of-type(1) {
+  height: 7rem;
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  border-bottom: 0.1rem solid #d5d2d2;
+}
+.box .feature p:nth-of-type(2) {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.box .ulst {
+  width: 100%;
+  list-style: none;
+  margin-top: 2rem;
+  background-color: white;
+  float: left;
+}
+.box .ulst h2 {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  float: left;
+}
+.box .ulst img {
+  width: 8rem;
+  height: 8rem;
+  margin-left: 2rem;
+}
+.box .ulst .matter {
+  margin-right: 4rem;
+  float: right;
+}
+.box .ulst .matter p:nth-of-type(1) {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.box .ulst .matter p:nth-of-type(2) {
+  margin-top: 0.51rem;
+}
+.box .ulst .matter span {
+  display: inline-block;
+  width: 5rem;
+  height: 1.5rem;
+  background-color: #F4F7F9;
+  margin-top: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  color: gray;
+}
+.box .ulst .li {
+  width: 95%;
+  height: 0.1rem;
+  margin-left: 0.5rem;
+  float: left;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
+  border-bottom: 0.01rem solid gray;
+}
+.box .school {
+  width: 100%;
+  margin-top: 2rem;
+  float: left;
+  background-color: white;
+}
+.box .school h3 {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  float: left;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .school ul {
+  width: 100%;
+  list-style: none;
+  float: left;
+  padding-left: 2rem;
+  box-sizing: border-box;
+}
+.box .school ul li {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+}
+.box .school ul .li {
+  width: 95%;
+  margin-top: 0rem;
+  height: 0.01rem;
+  border-bottom: 0.1rem solid #e0dfdf;
+}
+.box .school span {
+  display: inline-block;
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+}
+.box nav {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: white;
+  float: left;
+}
+.box nav h2 {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  border-bottom: 0.1rem solid gray;
+  float: left;
+}
+.box nav img {
+  width: 100%;
+  margin-top: 1rem;
+  background-size: 100%;
+}
+.box .housing {
+  width: 100%;
+  margin-top: 2rem;
+  background-color: white;
+  float: left;
+}
+.box .housing h2 {
+  width: 100%;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  float: left;
+}
+.box .housing ul {
+  width: 100%;
+  float: left;
+}
+.box .housing ul li {
+  width: 100%;
+  float: left;
+}
+.box .housing ul li img {
+  width: 8rem;
+  height: 8rem;
+  background-size: 100%;
+  float: left;
+}
+.box .housing ul li .culture {
+  width: 13rem;
+  margin-left: 2rem;
+  float: left;
+}
+.box .housing ul li .culture h3 {
+  width: 100%;
+  height: 2rem;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box .housing ul li .culture p:nth-of-type(1) {
+  margin-top: 0.5rem;
+}
+.box .housing ul li .culture p:nth-of-type(1) span {
+  float: right;
+}
+.box .housing ul li .culture p:nth-of-type(2) {
+  margin-top: 0.5rem;
+  color: gray;
+}
+.box .housing ul li .culture p:nth-of-type(2) span {
+  float: right;
+}
+.box .housing ul li .culture p:nth-of-type(3) {
+  margin-top: 0.5rem;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: gray;
+  background-color: #F4F7F9;
+}
+.box .housing ul li .p {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  float: left;
+}
+.box .housing ul li:nth-of-type(2) {
+  width: 100%;
+  float: left;
+}
+.box .housing ul li:nth-of-type(2) img {
+  width: 8rem;
+  height: 8rem;
+  background-size: 100%;
+  float: left;
+}
+.box .housing ul li:nth-of-type(2) .culture {
+  width: 13rem;
+  margin-left: 2rem;
+  float: left;
+}
+.box .housing ul li:nth-of-type(2) .culture h3 {
+  width: 100%;
+  height: 2rem;
+  float: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box .housing ul li:nth-of-type(2) .culture p:nth-of-type(1) {
+  margin-top: 0.5rem;
+}
+.box .housing ul li:nth-of-type(2) .culture p:nth-of-type(1) span {
+  float: right;
+}
+.box .housing ul li:nth-of-type(2) .culture p:nth-of-type(2) {
+  margin-top: 0.5rem;
+  color: gray;
+}
+.box .housing ul li:nth-of-type(2) .culture p:nth-of-type(2) span {
+  float: right;
+}
+.box .housing ul li:nth-of-type(2) .culture p:nth-of-type(3) {
+  margin-top: 0.5rem;
+  display: inline-block;
+  width: 4rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  color: gray;
+  background-color: #F4F7F9;
+}
+.box .housing ul li:nth-of-type(2) .p {
+  width: 100%;
+  height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  float: left;
+}
+.box .ps {
+  width: 100%;
+  height: 4rem;
+  float: left;
+  border-top: 0.1rem solid #dcd7d7;
+  background-color: white;
+}
+.box .ps p {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  line-height: 4rem;
+  color: gray;
+}
+iframe:nth-of-type(2) {
+  width: 100%;
+  height: 14.1rem;
+  float: left;
+}

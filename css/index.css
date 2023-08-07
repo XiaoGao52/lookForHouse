@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: #F5F5F5;
+}
+iframe {
+  width: 100%;
+  height: 4.9rem;
+  float: left;
+}
+.box {
+  clear: both;
+  width: 100%;
+}
+.box .header {
+  width: 100%;
+  height: 18.75rem;
+  background: url(../img/index/banner.png) no-repeat;
+  background-size: 100%;
+}
+.box .header .span {
+  display: inline-block;
+  margin: 12.5rem 3.125rem;
+  padding-left: 3.125rem;
+  background: url(../img/index/seach.jpg) no-repeat;
+  border: 0.3125rem solid gray;
+  border-radius: 0.625rem;
+}
+.box .header .span input {
+  padding-right: 12.5rem;
+  height: 3.125rem;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.box nav {
+  width: 100%;
+  background-color: aqua;
+}
+.box nav ul {
+  width: 100%;
+  height: 12.5rem;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  background-color: #FF8A00;
+}
+.box nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+}
+.box nav ul li:nth-of-type(1) {
+  flex: 1;
+  align-items: stretch;
+  background: url(../img/index/index_03.png) no-repeat 2rem 1.25rem;
+  background-size: 6.25rem;
+}
+.box nav ul li:nth-of-type(1) a {
+  margin-left: 3.125rem;
+  display: inline-block;
+  margin-top: 8.125rem;
+}
+.box nav ul li:nth-of-type(2) {
+  flex: 1;
+  align-items: stretch;
+  background: url(../img/index/index_03.png) no-repeat 2rem 1.25rem;
+  background-size: 6.25rem;
+}
+.box nav ul li:nth-of-type(2) a {
+  margin-left: 4.0625rem;
+  display: inline-block;
+  margin-top: 8.125rem;
+}
+.box nav ul li:nth-of-type(3) {
+  flex: 1;
+  align-items: stretch;
+  background: url(../img/index/index_03.png) no-repeat 2rem 1.25rem;
+  background-size: 6.25rem;
+}
+.box nav ul li:nth-of-type(3) a {
+  margin-left: 3.75rem;
+  display: inline-block;
+  margin-top: 8.125rem;
+}
+.box nav ul li:nth-of-type(4) {
+  flex: 1;
+  align-items: stretch;
+  background: url(../img/index/index_03.png) no-repeat 2rem 1.25rem;
+  background-size: 6.25rem;
+}
+.box nav ul li:nth-of-type(4) a {
+  margin-left: 3.75rem;
+  display: inline-block;
+  margin-top: 8.125rem;
+}
+.box img {
+  width: 100%;
+  height: 25rem;
+  margin-top: 1.25rem;
+}
+.box .hot {
+  width: 100%;
+}
+.box .hot h3 {
+  width: 100%;
+  padding: 1.25rem 1.25rem;
+  background-color: #FF8A00;
+  color: white;
+  box-sizing: border-box;
+}
+.box .hot h3 strong {
+  display: inline-block;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.box .ul {
+  width: 100%;
+  background-color: white;
+  list-style: none;
+  float: left;
+}
+.box .ul .li:nth-of-type(1) {
+  width: 100%;
+  float: left;
+  padding-bottom: 1.25rem;
+  border-bottom: 0.1875rem solid gray;
+  overflow: hidden;
+}
+.box .ul .li:nth-of-type(1) img {
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-left: 1.875rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(1) .lis {
+  width: 25rem;
+  margin-left: 1.25rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(1) .lis h3 {
+  width: 23.125rem;
+  height: 3.125rem;
+  font-size: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: right;
+}
+.box .ul .li:nth-of-type(1) .lis p {
+  font-size: 1.5rem;
+  margin-left: 1.875rem;
+  float: left;
+  color: gray;
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(1) .lis p strong {
+  margin-left: 5.625rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #FF8A00;
+}
+.box .ul .li:nth-of-type(1) .lis p:nth-of-type(2) span {
+  margin-left: 7.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(1) .lis p:nth-of-type(3) {
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(1) .lis p:nth-of-type(3) a {
+  display: inline-block;
+  width: 5.625rem;
+  height: 2.5rem;
+  background-color: #F4F7F9;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(1) .lis p:nth-of-type(3) a:nth-of-type(2) {
+  display: inline-block;
+  width: 3.75rem;
+  height: 2.5rem;
+}
+.box .ul .li:nth-of-type(2) {
+  width: 100%;
+  float: left;
+  padding-bottom: 1.25rem;
+  border-bottom: 0.1875rem solid gray;
+  overflow: hidden;
+}
+.box .ul .li:nth-of-type(2) img {
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-left: 1.875rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(2) .lis {
+  width: 25rem;
+  margin-left: 1.25rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(2) .lis h3 {
+  width: 23.125rem;
+  height: 3.125rem;
+  font-size: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: right;
+}
+.box .ul .li:nth-of-type(2) .lis p {
+  font-size: 1.5rem;
+  margin-left: 1.875rem;
+  float: left;
+  color: gray;
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(2) .lis p strong {
+  margin-left: 5.625rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #FF8A00;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(2) {
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(2) span {
+  margin-left: 7.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(3) {
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(3) a {
+  display: inline-block;
+  width: 5.625rem;
+  height: 2.5rem;
+  background-color: #F4F7F9;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(3) a:nth-of-type(2) {
+  display: inline-block;
+  width: 3.75rem;
+  height: 2.5rem;
+}
+.box .ul .li:nth-of-type(2) .lis p:nth-of-type(3) a:nth-of-type(3) {
+  display: inline-block;
+  width: 7.5rem;
+  height: 2.5rem;
+}
+.box .ul .li:nth-of-type(3) {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+.box .ul .li:nth-of-type(3) img {
+  width: 9.375rem;
+  height: 9.375rem;
+  margin-left: 1.875rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(3) .lis {
+  width: 25rem;
+  margin-left: 1.25rem;
+  float: left;
+}
+.box .ul .li:nth-of-type(3) .lis h3 {
+  width: 23.125rem;
+  height: 3.125rem;
+  font-size: 2.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: right;
+}
+.box .ul .li:nth-of-type(3) .lis p {
+  font-size: 1.5rem;
+  margin-left: 1.875rem;
+  float: left;
+  color: gray;
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(3) .lis p strong {
+  margin-left: 5.625rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #FF8A00;
+}
+.box .ul .li:nth-of-type(3) .lis p:nth-of-type(2) {
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(3) .lis p:nth-of-type(2) span {
+  margin-left: 7.5rem;
+  display: inline-block;
+  font-size: 1.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(3) .lis p:nth-of-type(3) {
+  margin-top: 0.625rem;
+}
+.box .ul .li:nth-of-type(3) .lis p:nth-of-type(3) a {
+  display: inline-block;
+  width: 5.625rem;
+  height: 2.5rem;
+  background-color: #F4F7F9;
+  text-align: center;
+  text-decoration: none;
+  line-height: 2.5rem;
+  color: gray;
+}
+.box .ul .li:nth-of-type(3) .lis p:nth-of-type(3) a:nth-of-type(2) {
+  display: inline-block;
+  width: 3.75rem;
+  height: 2.5rem;
+}
+.box .uls {
+  width: 100%;
+  height: 6.25rem;
+  margin-top: 20px;
+  background-color: white;
+  float: left;
+  list-style: none;
+  border-bottom: 0.0625rem solid #ff7300;
+}
+.box .uls li {
+  width: 50%;
+  height: 6.25rem;
+  float: left;
+  border-bottom: 0.1875rem solid red;
+}
+.box .uls li p {
+  text-align: center;
+  line-height: 6.25rem;
+  font-size: 2.5rem;
+  color: gray;
+}
+.box .brida {
+  width: 100%;
+  display: inline-block;
+  height: 18.75rem;
+  padding-top: 1.25rem;
+  background-color: white;
+}
+.box .brida ul {
+  width: 40%;
+  height: 12.5rem;
+  list-style: none;
+  padding-left: 10%;
+  margin-left: 1.875rem;
+  box-sizing: border-box;
+  float: left;
+}
+.box .brida ul li {
+  line-height: 3.125rem;
+  font-size: 1.625rem;
+  color: gray;
+}
+.box .brida ul:nth-of-type(2) {
+  width: 40%;
+  height: 12.5rem;
+  list-style: none;
+  padding-left: 5%;
+  margin-left: 4.375rem;
+  box-sizing: border-box;
+  float: left;
+}
+.box .brida ul:nth-of-type(2) li {
+  line-height: 3.125rem;
+}
+iframe:nth-of-type(2) {
+  width: 100%;
+  height: 14.1rem;
+  float: left;
+}
+.footer {
+  width: 100%;
+  float: left;
+  position: fixed;
+  top: 61.8rem;
+}
+.footer iframe:nth-of-type(3) {
+  min-width: 375px;
+  height: 5.859rem;
+}
