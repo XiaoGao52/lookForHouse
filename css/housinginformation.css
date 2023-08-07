@@ -1,0 +1,554 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+iframe {
+    min-width: 375px;
+    width: 100%;
+    height: 4.9rem;
+}
+
+iframe:nth-of-type(2) {
+    min-width: 375px;
+    width: 100%;
+    height: 14.1rem;
+}
+
+.index {
+    min-width: 375px;
+    width: 100%;
+    height: 168rem;
+    background-color: #F5F5F5;
+}
+
+.index>.index1 {
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.index>.index1>.page {
+    width: 90%;
+    height: 3.5rem;
+    background-color: #ffffff;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+}
+
+.index>.index1>.page>li {
+    line-height: 3.5rem;
+    /* margin-left: 1rem; */
+    padding: 0 .4rem;
+    font-size: 1.3rem;
+}
+
+.index>.index1>.page>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.index>.index1>.page>li:nth-of-type(1) {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+/* 图片 */
+
+.index>.tu1 {
+    /* min-width: 375px; */
+    width: 100%;
+    height: 22.4rem;
+    background-color: rgb(46, 219, 23);
+    /* background: url(../img/rentalList/banner.png) no-repeat;
+    background-size: 100%; */
+    position: relative;
+}
+
+.index>.tu1>img {
+    width: 100%;
+    height: 100%;
+}
+
+.index>.tu1>.fen {
+    width: 6rem;
+    height: 4rem;
+    background-color: rgba(30, 30, 30, 0.8);
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0%;
+}
+
+.index>.tu1>.fen>P {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    color: #fff;
+
+}
+
+/* 图下 */
+
+.index>.guanzh {
+    width: 100%;
+    height: 9rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: .1rem solid #cfcfcf;
+
+}
+
+.index>.guanzh>.wen {
+    width: 94%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+
+
+}
+
+.index>.guanzh>.wen>li {
+    width: 10rem;
+    height: 80%;
+    background-color: #ffffff;
+    margin: .1rem;
+    margin-top: 1rem;
+
+}
+
+.index>.guanzh>.wen>li:nth-of-type(1) {
+    width: 35rem;
+    border-right: 1px solid #e6e4e4;
+}
+
+.index>.guanzh>.wen>li:nth-of-type(1) h2 {
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.index>.guanzh>.wen>li:nth-of-type(2) {
+    background: url(../img/rentalList/xin.png) no-repeat 3rem 1.5rem;
+    background-size: 30%;
+}
+
+.index>.guanzh>.wen>li:nth-of-type(2) p {
+    margin-top: 4.6rem;
+    font-size: 1.5rem;
+    margin-left: 2.6rem;
+}
+
+/* 租金  房型  面积 */
+
+.index>.zhujin {
+    width: 100%;
+    height: 13rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    border-bottom: .1rem solid #e1e1e1;
+}
+
+.index>.zhujin>ul {
+    width: 100%;
+    height: 50%;
+    background-color: #F5F5F5;
+    list-style: none;
+    margin-top: 2.8rem;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.index>.zhujin>ul>li {
+    width: 10rem;
+    height: 100%;
+    background-color: #F5F5F5;
+    border-right: .1rem solid #d6d4d4;
+}
+
+.index>.zhujin>ul>li>P {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+    font-size: 1.6rem;
+}
+
+.index>.zhujin>ul>li>P:nth-of-type(2) {
+    color: #FF8A00;
+}
+
+
+/* 楼层  装修 年代 */
+
+.floor {
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: .1rem solid #dbdada;
+}
+
+.floor>ul {
+    width: 90%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.floor>ul>Li {
+    width: 45%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.floor>ul>Li>span {
+    line-height: 6rem;
+    font-size: 1.5rem;
+
+}
+
+.floor>ul>Li>span:nth-of-type(1) {
+    margin-left: 1rem;
+}
+
+/* 经济人房评 */
+
+.box3 {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.box3>.top {
+    width: 98%;
+    height: 30%;
+    margin: 1rem auto;
+    /* background-color: #FF8A00; */
+}
+
+.box3>.top>ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    border-bottom: 1px solid #d2d1d1;
+    display: flex;
+}
+
+.box3>.top>ul>li {
+    width: 20%;
+    height: 80%;
+    background-color: #ffffff;
+    margin: 0 2rem;
+}
+
+.box3>.top>ul>li:nth-of-type(1) {
+    width: 90%;
+    /* flex-grow: 9; */
+
+}
+
+.box3>.top>ul>li:nth-of-type(1) h2 {
+    font-size: 2.5rem;
+    line-height: 5.2rem;
+    color: #FF8A00;
+}
+
+.box3>.top>ul>li:nth-of-type(2) {
+    width: 20%;
+    margin-left: 0.1rem;
+    background: url(../img/rentalList/right.png)no-repeat 4rem 1.5rem;
+}
+
+.box3>p {
+    font-size: 1.5rem;
+    padding: .8rem;
+    line-height: 2.5rem;
+}
+
+
+/* 看房客户记录 */
+.box4 {
+    width: 100%;
+    height: 15.5rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+
+}
+
+.box4>.nei {
+    width: 94%;
+    height: 84%;
+    /* background-color: #FF8A00; */
+    border: .1rem solid #e2e2e2;
+    margin: 1rem auto;
+}
+
+.box4>.nei>.top {
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+    border-bottom: .1rem solid #e0e0e0;
+
+}
+
+.box4>.nei>.top>span {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: #FF8A00;
+    margin-left: 2rem;
+}
+
+.box4>.nei>.top>span:nth-of-type(2) {
+    margin-left: 15rem;
+    margin-top: .3rem;
+}
+
+.box4>.nei>.botton {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.box4>.nei>.botton>P {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    line-height: 5.5rem;
+}
+
+
+/* 看客户记录 */
+
+.box5 {
+    width: 100%;
+    height: 37rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    border: .1rem solid #f7f7f7;
+}
+
+.box5>.nei {
+    width: 94%;
+    height: 100%;
+    /* background-color: #FF8A00; */
+    border: .1rem solid #e2e2e2;
+    margin: 1rem auto;
+}
+
+.box5>.nei>.top {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    border-bottom: .1rem solid #e0e0e0;
+
+}
+
+.box5>.nei>.top>span {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: #FF8A00;
+    margin-left: 2rem;
+}
+
+.box5>.nei>.top>span:nth-of-type(2) {
+    margin-left: 17.5rem;
+    margin-top: .3rem;
+}
+
+.box5>.nei>.xia {
+    width: 95%;
+    height: 22rem;
+    /* background-color: brown; */
+    border: .1rem solid #e6e6e6;
+    /* margin: 1.5rem auto; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.box5>.nei>.xia>.shang {
+    width: 100%;
+    height: 4rem;
+    background-color: #ffffff;
+}
+
+.box5>.nei>.xia>.shang>p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+}
+
+.box5>.nei>.xia>.tu2 {
+    width: 100%;
+    height: 22rem;
+    background-color: chocolate;
+    /* background: url(../img/rentalList/map.png) no-repeat; */
+}
+
+.box5>.nei>.xia>.tu2>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.box6 {
+    width: 100%;
+    height: 18rem;
+    background-color: #F5F5F5;
+    overflow: hidden;
+    border: .1rem solid #f7f7f7;
+}
+
+.box6>.nei {
+    width: 94%;
+    height: 100%;
+    /* background-color: #FF8A00; */
+    border: .1rem solid #e2e2e2;
+    /* margin: 1rem auto; */
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.box6>.nei>.top {
+    width: 100%;
+    height: 28%;
+    background-color: #ffffff;
+    border-bottom: .1rem solid #e0e0e0;
+
+}
+
+.box6>.nei>.top>span {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: #FF8A00;
+    margin-left: 2rem;
+}
+
+.box6>.nei>.top>span:nth-of-type(2) {
+    margin-left: 15.5rem;
+    margin-top: .3rem;
+}
+
+.box6>.nei>.bb {
+    width: 100%;
+    height: 12rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.box6>.nei>.bb>span {
+    font-size: 1.8rem;
+    line-height: 6rem;
+    margin-left: 1.3rem;
+
+}
+
+.box6>.nei>.bb>span:nth-of-type(3) {
+    color: #DE6843;
+}
+
+.box6>.nei>.bb>p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 1.3rem;
+}
+
+/* 底层 */
+
+.box7 {
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+}
+
+.box7>ul {
+    width: 94%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box7>ul>li {
+    width: 9rem;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 .1rem;
+}
+
+.box7>ul>li:nth-of-type(1) {
+    width: 20%;
+}
+
+.box7>ul>li:nth-of-type(1) img {
+    width: 100%;
+    height: 80%;
+    margin-top: 0.8rem;
+    /* margin-left: 0.5rem; */
+}
+
+.box7>ul>li:nth-of-type(2) {
+    width: 60%;
+}
+
+.box7>ul>li:nth-of-type(2) p {
+    margin-top: 0.8rem;
+    font-size: 1.6rem;
+    margin-left: .8rem;
+}
+
+
+.box7>ul>li:nth-of-type(3) {
+    width: 20%;
+}
+
+.box7>ul>li:nth-of-type(3) span>img {
+    width: 80%;
+    margin-left: .6rem;
+    margin-top: .5rem;
+}
+
+.box7>ul>li:nth-of-type(3) p {
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    color: #5DCB96;
+}
+
+.box7>ul>li:nth-of-type(4) {
+    width: 20%;
+}
+
+.box7>ul>li:nth-of-type(4) span>img {
+    margin-left: .6rem;
+    margin-top: .5rem;
+    width: 80%;
+}
+
+.box7>ul>li:nth-of-type(4) p {
+    margin-left: 1.2rem;
+    font-size: 1.5rem;
+    color: #5BAEDE;
+}
