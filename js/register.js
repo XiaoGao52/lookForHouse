@@ -37,6 +37,9 @@ btn.onclick = function () {
 }
 var btn1_ = document.querySelector('.box3').children[0]
 btn1_.onclick = function () {
+     if (inp[0].value == localStorage.getItem(inp[0].value)) {
+        alert('手机号已经注册')
+    } else
     if (arry[0] == inp[1].value && psd.test(inp[2].value)) {
         alert('注册成功，请牢记密码');
         console.log(inp[0]);
